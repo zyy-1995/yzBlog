@@ -1,0 +1,39 @@
+/*侧栏样式*/
+.content .sideBox #hotArticle .hotArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #hotArticle .hotArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+
+.content .sideBox #lastestArticle{
+    height: auto;
+    margin-top: 50px;
+}
+.content .sideBox #lastestArticle .lastestArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #lastestArticle .lastestArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+.content .sideBox #lastestArticle{
+    height:auto;
+}
+
+.content .sideBox #hotTitle{
+    height: auto;
+    margin-top: 50px;
+}
+

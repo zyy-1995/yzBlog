@@ -1,0 +1,14 @@
+.content{
+    width:100%;
+    height: auto;
+    z-index: 998;
+    margin: 0 auto;
+}
+.content #messageBoard{
+    width:1000px;
+    height: auto;
+}
+
+
+
+

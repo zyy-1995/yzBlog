@@ -1,0 +1,60 @@
+.content{
+    width:100%;
+    height: auto;
+    margin-top:80px;
+    z-index: 998;
+    /*垂直水平居中*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content #messageBoard{
+    width:1000px;
+    height: auto;
+}
+#messageBoard li{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px dashed lightgray;
+    line-height: 30px;
+    margin-top: 20px;
+}
+#messageBoard li span{
+    font-size: 20px;
+    color:palevioletred ;
+}
+#messageBoard li p{
+    text-indent: 100px;
+    text-align: left;
+    font-size: 18px;
+}
+#messageBoard li .time{
+    margin-left: 600px;
+    font-size: 16px;
+    color: gray;
+}
+#messageBoard li .address{
+    font-size: 16px;
+    color: lightgray;
+    margin-left: 5px;
+}
+#messageBoard li .jiaohu{
+    margin-left: 780px;
+}
+#messageBoard li .jiaohu span{
+    font-size: 16px;
+    color: gray;
+    margin-right: 10px;
+}
+#messageBoard li .jiaohu img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+#messageBoard li img.userImg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

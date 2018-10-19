@@ -1,0 +1,23 @@
+.content {
+    width: 100%;
+    height: auto;
+    /*垂直水平居中*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+}
+ul.webShare{
+    width: 1000px;
+   top:500px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+

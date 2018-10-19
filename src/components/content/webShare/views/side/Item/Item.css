@@ -1,0 +1,37 @@
+/*侧栏样式*/
+.content .sideBox{
+    width: 320px;
+    margin-left: 50px;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    z-index:0;
+}
+
+.content .sideBox #hotArticle .hotArticleList li,.content .sideBox #lastestArticle .lastestArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 20px;
+    line-height: 20px;
+    /*margin-top: 10px;*/
+    text-align: left;
+}
+#hotTitle,#lastestArticle{
+    height: auto;
+    margin-top: 50px;
+}
+ #lastestArticle .lastestArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #lastestArticle .lastestArticleList li>p , .content .sideBox #hotArticleList .hotArticleList li>p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .sideBox li a{font-size: 18px;}
+.content .sideBox li:hover a{
+    color:palevioletred;
+}
+
+
+
+

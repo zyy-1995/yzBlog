@@ -1,0 +1,46 @@
+.webShare li{
+    height: 160px;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+.webShare li:hover{
+    box-shadow: 5px 5px 5px lightgray;
+    border-bottom: 2px solid palevioletred;
+}
+.webShare li a{
+    font-size: 22px;
+    font-weight: bold;
+}
+.webShare li:hover a{
+    color: palevioletred ;
+}
+.webShare li img{
+    float: left;
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    margin-right: 20px;
+    transition: all linear 1s;
+    z-index: -1;
+}
+.webShare li img:hover{
+    transform: scale(1.1);
+}
+.webShare .readBtn{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:rgba(219,112,147,0.9);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    float: right;
+}
+.webShare  .readBtn:hover{
+    background-color:palevioletred;
+}

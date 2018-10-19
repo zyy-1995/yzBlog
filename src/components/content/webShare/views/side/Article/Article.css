@@ -1,0 +1,95 @@
+/*侧栏样式*/
+.sideBox{
+    width:320px;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+    left: 1100px;
+    top:100px;
+}
+.content .sideBox #searchBox p:last-child{
+    width: 320px;
+    height: 50px;
+    text-align: center;
+}
+.content .sideBox input{
+    width: 250px;
+    border:1px palevioletred solid;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 10px;
+}
+.content .sideBox #searchBtn{
+    width: 50px;
+    height: 31px;
+    background-color:palevioletred;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content .sideBox #hotArticle{
+    height: auto;
+    margin-top: 20px;
+}
+
+.content .sideBox #hotArticle .hotArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #hotArticle .hotArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+
+.content .sideBox #lastestArticle{
+     height: auto;
+     margin-top: 50px;
+ }
+.content .sideBox #searchBox p span.title,.content .sideBox #hotArticle  p span.title,.content .sideBox #lastestArticle  p span.title,.content .sideBox #connectMe  p span.title{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+
+}
+.content .sideBox #lastestArticle .lastestArticleList{
+    border-top: 2px solid palevioletred;
+}
+.content .sideBox #lastestArticle .lastestArticleList li{
+    border-bottom: 1px dashed palevioletred;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+.content .sideBox #lastestArticle{
+    height:auto;
+}
+
+.content .sideBox #hotTitle,.content .sideBox #connectMe{
+    height: auto;
+    margin-top: 50px;
+}
+
+.content .sideBox #searchBox p:first-child,.content .sideBox #connectMe p{
+    border-bottom: 2px solid palevioletred;
+}
+
+.content .sideBox #connectMe img{
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+}
+

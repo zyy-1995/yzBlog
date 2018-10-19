@@ -1,0 +1,50 @@
+.content {
+    width: 100%;
+    height: auto;
+    /*垂直水平居中*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+}
+.titleBox2{
+    width: 200px;
+   text-align: center;
+    position: absolute;
+    top: 400px;
+}
+.titleBox2 h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #333;
+    font-family: '华文楷体';
+    border-bottom: solid 1px #cfcfcf;
+}
+.titleBox2 #title2{
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+}
+.titleBox2 #title2 button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    background-color:rgba(219,112,147,0.2);
+    border-radius: 10px;
+}
+
+.titleBox2 #title2 .active{
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 10px;
+    color: white;
+}
+.titleBox2 #title2 button:hover{
+    background-color:palevioletred;
+    color: white;
+    border-radius: 10px;
+}

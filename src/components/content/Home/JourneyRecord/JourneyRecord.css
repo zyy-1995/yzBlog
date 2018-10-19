@@ -1,0 +1,50 @@
+.content {
+    width: 100%;
+    height: auto;
+    /*垂直水平居中*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+}
+.titleBox4 h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #333;
+    font-family: 华文楷体;
+    border-bottom: solid 1px #cfcfcf;
+}
+ul.JourneyRecord{
+    margin-top: 100px;
+    position: absolute;
+    top:1070px;
+}
+ul.JourneyRecord li{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-left: 33.33333333px;
+}
+ul.JourneyRecord img{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-transition: all ease-in 0.5s;
+    z-index: -1;
+}
+ul.JourneyRecord img:hover{
+    -webkit-transform:scale(1.1);
+}
+ #title4{
+    height: 25px;
+    line-height: 25px;
+    font-size: 24px;
+    color: #666;
+}
+.titleBox4 {
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    top: 1080px;
+}

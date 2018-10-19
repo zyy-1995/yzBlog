@@ -1,0 +1,25 @@
+.content{
+    width:100%;
+    height: auto;
+    margin-top:80px;
+    z-index: 998;
+    /*垂直水平居中*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content #messageBoard{
+    width:1000px;
+    height: auto;
+    margin-top: 120px;
+}
+#messageBox{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+#messageBox h3{
+    color:palevioletred ;
+    border-left: 5px solid palevioletred;
+    padding-left: 10px;
+}
